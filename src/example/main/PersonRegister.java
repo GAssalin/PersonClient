@@ -22,12 +22,29 @@ public class PersonRegister {
         
         DateFormat df = new SimpleDateFormat("dd/MM/yyyy");
         
-        Person p = new Person();
-        p.setName("Gustavo S Assalin");
-        p.setBirthday(df.parse("28/08/1995"));
-        p.setEmail("gustavo.assalin");
+        //Save a new Person
+//        Person p = new Person();
+//        
+//        p.setName("Gustavo S Assalin");
+//        p.setBirthday(df.parse("28/08/1995"));
+//        p.setEmail("gustavo.assalin");
+//        
+//        p = ejb.save(p);
+//        System.out.println("Saved with id: " + p.getId());
+        //-----------------
         
-        p = ejb.save(p);
-        System.out.println("Pessoa salva com o id: " + p.getId());
+        //Set a Person's information
+//        Person p = ejb.getPerson(1L);
+//        
+//        p.setName("Gustavo Assalin");
+//        
+//        ejb.save(p);
+//        System.out.println("Done!");
+        //-----------------
+        
+        //Delete Person
+//        ejb.delete(1L);
+//        System.out.println("Deleted!");
+        //-----------------
     }
 }
